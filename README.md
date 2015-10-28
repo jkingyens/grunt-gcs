@@ -26,11 +26,12 @@ In your project's Gruntfile, add a section named `gcs` to the data object passed
 grunt.initConfig({
   gcs: {
     options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
+      credentials: { 
+         // exported JSON credentials from Service Account go here.
+      },
+      project: 'your-project-id',
+      bucket: 'existing-destination-bucketname'
+    }
   },
 });
 ```
