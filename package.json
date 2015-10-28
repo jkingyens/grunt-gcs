@@ -1,0 +1,45 @@
+{
+  "name": "grunt-gcs",
+  "description": "Push files to a Google Cloud Storage bucket",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jkingyens/grunt-gcs",
+  "author": {
+    "name": "Jeff Kingyens",
+    "email": "jeff.kingyens@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkingyens/grunt-gcs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkingyens/grunt-gcs/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jkingyens/grunt-gcs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "async": "^1.5.0",
+    "gcloud": "^0.24.0"
+  }
+}
